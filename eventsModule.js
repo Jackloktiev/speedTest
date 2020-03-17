@@ -69,7 +69,6 @@ var eventsModule = (function(dModule, uModule, cModule, wModule){
                 uModule.scroll();
 
             }
-            console.log(dModule.returnData());
         })
         //resize the window listener - scroll into middle view
         window.addEventListener("resize",uModule.scroll);
