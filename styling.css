@@ -1,0 +1,100 @@
+body {
+    background:url(images/space_background.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.meas_container{
+    background-color: rgba(236,34,202,0.4);
+
+    
+}
+
+.row{
+    font-size: 30px;
+}
+.title{
+    font-size: 14px;
+}
+.typingIcon{
+    height: 50px;
+    margin: 15px auto;
+}
+#content{
+    height: 137px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 10px auto;
+    font-size: 30px;
+    overflow: hidden;
+    padding: 0 5px;
+    line-height: 45px;
+}
+
+.change{
+    height: 25px;
+    font-size: 16px;
+}
+#input{
+    background-color: rgba(239, 37,188,0.5);
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(1,226,182);
+    border-color: rgba(239, 37,188,0.5);
+}
+
+.keyboard{
+    min-height: 200px;
+    max-height: 500px;
+    background:url(images/keyboard2.png) no-repeat center center;
+    margin: 20px auto;
+    background-size: contain;
+}
+
+.restart{
+    margin-top: 20px;
+}
+
+.btn-primary{
+    background: rgba(236,34,202,0.5);
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background: rgba(236,34,202,0.8);
+}
+
+.scoreDown, .scoreUp{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+.scoreDown{
+    background: mediumvioletred;
+    color: white;
+}
+
+.scoreUp{
+    background: greenyellow;
+    color: black;
+}
+
+.modal{
+    color: black;
+}
+
+.activeWord{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.correctCharacter{
+    color:mediumblue;
+}
+.wrongCharacter{
+    color:mediumvioletred;
+}
+
+.rounded-circle{
+    margin-bottom: 10px;
+}
